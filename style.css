@@ -4,14 +4,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #333; /* Set your desired uniform background color here */
+    color: #fff; /* Adjust text color for readability */
 }
 
 /* Header */
 header {
-    background: #333;
-    color: #fff;
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: center;
@@ -31,6 +29,12 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Hover Effect */
+nav ul li a:hover {
+    color: #4CAF50; /* Change this color if needed */
 }
 
 /* Main Section */
@@ -38,19 +42,14 @@ main {
     padding: 15px;
 }
 
-main h1 {
-    color: #333;
-}
-
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    background: #333;
-    color: #fff;
     position: relative;
     bottom: 0;
     width: 100%;
+    background-color: #fff; /* Set footer background to white */
+    color: #333; /* Change text color for better visibility on white background */
 }
 
 /* Add Media Queries for Responsiveness */
